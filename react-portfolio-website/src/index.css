@@ -28,11 +28,29 @@
   
 }
 
-wrapper{
-  position: fixed;
-  background-color: aliceblue;
-  background: url(../src/assets/dua.jpg);
+.parallax {
+  background-image: url(../src/assets/dua.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:repeat-x;
+  background-size: cover;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
+
+.container__athish {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
 
 html{
   scroll-behavior:smooth;
