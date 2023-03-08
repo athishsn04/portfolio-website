@@ -12,7 +12,7 @@
 }
 
 :root{
-  --color-bg: #1f1f38;
+  --color-bg: #1f055c;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant:rgba(77, 181, 255,0.4);
@@ -144,6 +144,11 @@ img{
   object-fit: cover;
 }
 
+@media(prefers-reduced-motion: no-preference){
+  .hidden{
+    transition: all 1s;
+  }
+}
 
 /* ======== MEDIA QUERIES(MEDIUM DEVICES) =========*/
 
