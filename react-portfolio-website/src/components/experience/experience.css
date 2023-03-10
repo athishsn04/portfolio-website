@@ -1,6 +1,10 @@
 .experience__container{
-    display: grid;   
-    grid-template-columns: repeat(3, 1fr);
+    display:grid; 
+
+    grid-template-columns: repeat(2, 2fr);
+
+    
+    /* grid-template-columns: 1fr 2fr; */
     gap: 2rem;
 }
 

@@ -3,12 +3,14 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/athish.JPG'
 import HeaderSocials from './HeaderSocials'
+import AnimatedHeader from './AnimatedHeader'
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5> Hello I'm</h5>
-        <h1>Athish Sujay Nath</h1>
+        <h4> Hello I'm</h4>
+        <AnimatedHeader text="ATHISH SUJAY NATH" />
+        
         <h5 className="text-light"> Full Stack Developer</h5>
         <CTA />
         <HeaderSocials/>

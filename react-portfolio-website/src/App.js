@@ -6,9 +6,12 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import About from './components/about/About'
+
+
 const App = () => {
   return(
     <>
+      
       <Header />
       <Nav />
       <About/>
